@@ -28,7 +28,7 @@ public class ClickGui
 
     public ClickGui() {
         super("ClickGui", "Opens the ClickGui", Module.Category.CLIENT, true, false, false);
-        setBind(GLFW.GLFW_KEY_RIGHT_SHIFT);
+        setBind(GLFW.GLFW_KEY_RIGHT_P);
         rainbowHue.setVisibility(v -> rainbow.getValue());
         rainbowBrightness.setVisibility(v -> rainbow.getValue());
         rainbowSaturation.setVisibility(v -> rainbow.getValue());
